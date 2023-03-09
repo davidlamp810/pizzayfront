@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+scan{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+}
+section{
+    margin-top: 135px;
+    margin-bottom: 80px;
+}
+.panel1{
+    background-image: url(../img/delivery.jpg);
+    height: 350px;
+    width: 47%;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+h2{
+    display: inline-block;
+    margin-top: 20px;
+}
+.red{
+    color: red;
+    font-size: 24px;
+}
+.white{
+    color:#FFFFFF;
+    font-size: 24px;
+}
+.panel2{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 47%;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin-top: 60px;
+}
+ol{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.pizza{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -180px;
+
+}
+footer{
+    background-color: #222222;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo2{
+    width: 212px;
+    height: 80px;
+    margin-right: 42px;
+}
+ul{
+    margin-left: 20px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+    font-size: 16px;
+}
+li{
+    margin-bottom: 12px;
+}
