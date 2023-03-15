@@ -31,6 +31,7 @@ section{
 }
 .panel1{
     background-image: url(../img/delivery.jpg);
+    background-size: cover;
     height: 350px;
     width: 47%;
     border-radius: 5px;
